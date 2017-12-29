@@ -5,5 +5,5 @@ tar -C /usr/local -xzf go$goversion.linux-386.tar.gz
 rm go$goversion.linux-386.tar.gz
 me=`who | awk '{print \$1}'`
 mkdir "/home/$me/go"
-printf "\n\nexport PATH=\$PATH:/usr/local/go/bin\nexport GOPATH=/home/$me/go\nexport PATH=\$PATH:\$GOPATH/bin" >> "/home/$me/.profile"
+printf "\nexport PATH=\$PATH:/usr/local/go/bin\nexport GOPATH=/home/$me/go\nexport PATH=\$PATH:\$GOPATH/bin\n" >> "/home/$me/.profile"
 

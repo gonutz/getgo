@@ -1,4 +1,4 @@
-Install [the Go programming language](https://golang.org/) on Linux with this command:
+Install [the Go programming language](https://golang.org/) on Linux with this command, changing the version to your desired Go version:
 
 `$goversion=1.9.2; git clone https://github.com/gonutz/getgo.git; chmod u+x getgo/getgo; sudo getgo/getgo; rm -r getgo`
 
